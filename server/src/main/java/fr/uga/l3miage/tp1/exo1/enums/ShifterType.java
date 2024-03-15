@@ -5,5 +5,4 @@ public enum ShifterType {
     DOWN,
     UP,
     FULL
-
 }
