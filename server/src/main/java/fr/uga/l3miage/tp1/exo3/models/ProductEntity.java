@@ -6,7 +6,7 @@ import javax.persistence.OneToOne;
 
 public class ProductEntity {
     @Id
-    @Column(length = 15)
+    @Column(length = 15, nullable = false)
     private String bar_code_number;
 
     private String name;
