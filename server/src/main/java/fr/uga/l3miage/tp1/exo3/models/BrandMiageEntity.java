@@ -7,11 +7,13 @@ import java.util.Set;
 @Table (name = "brand_miage")
 public class BrandMiageEntity {
     @Id
+    @Column
     private String company_name;
 
     @Column(length = 11, nullable = false)
     private String siretNumber;
 
+    @Column
     private String type;
 
     @OneToMany(mappedBy="brand")

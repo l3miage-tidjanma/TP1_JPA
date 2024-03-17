@@ -9,8 +9,10 @@ public class ProductEntity {
     @Column(length = 15, nullable = false)
     private String bar_code_number;
 
+    @Column
     private String name;
 
+    @Column
     private boolean consumable;
 
     @ManyToOne
