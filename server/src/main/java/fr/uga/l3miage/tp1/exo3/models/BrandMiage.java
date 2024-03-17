@@ -14,7 +14,7 @@ public class BrandMiage {
 
     private String type;
 
-    @OneToMany (mappedBy = "brand")
+    @OneToMany(mappedBy="brand")
     private Set<ProductEntity> products;  // Relation APourProduit
 
     /*
