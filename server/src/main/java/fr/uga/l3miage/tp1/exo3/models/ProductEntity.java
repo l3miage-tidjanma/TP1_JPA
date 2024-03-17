@@ -14,7 +14,7 @@ public class ProductEntity {
     private boolean consumable;
 
     @ManyToOne
-    private ProductEntity product; // Relation APourMarque
+    private BrandMiage brand; // Relation APourMarque
     /*  Chaque produit appartient à une seule marque, donc
         utiliser l'annotation @ManyToOne du côté de
         l'entité ProductEntity pour indiquer cette relation.
