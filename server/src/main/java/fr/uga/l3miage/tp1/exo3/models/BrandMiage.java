@@ -1,10 +1,9 @@
 package fr.uga.l3miage.tp1.exo3.models;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
+@Entity
+@Table (name = "brand_miage")
 public class BrandMiage {
     @Id
     private String company_name;
